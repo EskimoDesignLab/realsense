@@ -48,7 +48,7 @@ Processing enabled by this node:
 
   <arg name="fisheye_width"       default="640"/>
   <arg name="fisheye_height"      default="480"/>
-  <arg name="enable_fisheye"      default="true"/>
+  <arg name="enable_fisheye"      default="false"/>
 
   <arg name="depth_width"         default="640"/>
   <arg name="depth_height"        default="480"/>
@@ -56,24 +56,24 @@ Processing enabled by this node:
 
   <arg name="infra1_width"        default="640"/>
   <arg name="infra1_height"       default="480"/>
-  <arg name="enable_infra1"       default="true"/>
+  <arg name="enable_infra1"       default="false"/>
 
   <arg name="infra2_width"        default="640"/>
   <arg name="infra2_height"       default="480"/>
-  <arg name="enable_infra2"       default="true"/>
+  <arg name="enable_infra2"       default="false"/>
 
   <arg name="color_width"         default="640"/>
   <arg name="color_height"        default="480"/>
   <arg name="enable_color"        default="true"/>
 
-  <arg name="fisheye_fps"         default="60"/>
+  <arg name="fisheye_fps"         default="0"/>
   <arg name="depth_fps"           default="60"/>
   <arg name="infra1_fps"          default="60"/>
   <arg name="infra2_fps"          default="60"/>
   <arg name="color_fps"           default="60"/>
-  <arg name="gyro_fps"            default="1000"/>
-  <arg name="accel_fps"           default="1000"/>
-  <arg name="enable_imu"          default="true"/>
+  <arg name="gyro_fps"            default="0"/>
+  <arg name="accel_fps"           default="0"/>
+  <arg name="enable_imu"          default="false"/>
 
   <arg name="enable_pointcloud"   default="false"/>
   <arg name="enable_sync"         default="true"/>
